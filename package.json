@@ -1,0 +1,20 @@
+{
+  "name": "Pdfgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaibhavMishra17/pdf-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaibhavMishra17/pdf-generator/issues"
+  },
+  "homepage": "https://github.com/VaibhavMishra17/pdf-generator#readme"
+}
