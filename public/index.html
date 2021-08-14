@@ -10,7 +10,8 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <textarea id="text" cols="30" rows="10"></textarea>
+    <label for="text">Enter your name to generate the pdf: </label>
+    <input type="text" name="text" id="text" />
     <button id="generate">Generate Pdf</button>
     <script>
       $(document).ready(function () {
@@ -18,9 +19,10 @@
 
         $("#generate").click(function () {
           var text = $("#text").val();
+          var final_text = "My Name is : " + text;
           const doc = new jsPDF();
 
-          doc.text(text, 10, 10);
+          doc.text(final_text, 10, 10);
           doc.save("generated.pdf");
         });
       });
